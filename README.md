@@ -1,0 +1,2 @@
+# KendimeNotlar
+Kitap Özetleri
