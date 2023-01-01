@@ -83,7 +83,7 @@
   - Sınıf ismi
   - verileri tutan property dediğimiz alan
   - bu verileri kullanan sınıfın davranışları dediğimiz method alanı
-    ![class diagram](/images/class_diagram.png)
+    ![class diagram](./images/class_diagram.png)
 
 ## Sınıf İlişkileri
 
@@ -92,20 +92,20 @@
 ### Association
 
 - Eğer bir sınıf başka bir sınıfı refere ediyor veya onu kullanıyorsa bu iki sınıf arasında **association** ilişkisi vardır.
-  ![association](/images/association.png)
+  ![association](./images/association.png)
 - Bazen bir sınıfın bir instance nın association ilişkide olduğu diğer sınıfın birçok instance ile bu ilşki kurulabilir.
-  ![one to many](/images/oneToMany.png)
+  ![one to many](./images/oneToMany.png)
   Şekilde görüldüğü gibi bir müşterinin birden fazla rezervasyonu olabilir.
 - Bazen bir sınıfın bir instance ı aynı sınıfın diğer bir instance ile ilişkide olabilirBuna **self-association** ilişkisi denir.
-  ![self-association](/images/selfAssociation.png)
+  ![self-association](./images/selfAssociation.png)
   Örneğin Pilot sınıfının bir instance ı olan kaptan yine Pilot sınıfının bir instance ı olan yardımcı pilot ile ilişki içersindedir.
 
 ### Inheritance
 
 - Birçok sınıf aynı davranış ve özellikleri paylaştığında,bu ortak davranış ve özellikleri içeren temel bir sınıf oluşturulur.İşte çocuk sınıflar bu temel sınıftan miras alırlar.
-  ![inheritance](/images/inheritance.png)
+  ![inheritance](./images/inheritance.png)
 
 ### Aggregation
 
 - Bir sınıf diğer başka sınıfların birleşiminden oluşuyorsa bu bir **aggregation** ilişkisidir.
-  ![aggregation](/images/aggregation.png)
+  ![aggregation](./images/aggregation.png)
